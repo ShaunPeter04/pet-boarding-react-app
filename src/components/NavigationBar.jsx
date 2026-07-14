@@ -61,7 +61,7 @@ const NavigationBar = () => {
                         <li className="nav-item">
                             <Link
                                 className="btn rounded-pill px-4 py-2 fw-semibold text-dark"
-                                to="/"
+                                to="/view"
                                 style={{
                                     backgroundColor: '#ffc107',
                                     border: 'none'

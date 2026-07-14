@@ -29,7 +29,7 @@ const AddPet = () => {
     const readValue = () => {
         console.log(input)
 
-        axios.post("http://localhost:4000/add-pet", input).then(
+        axios.post("http://localhost:3000/add-pet", input).then(
 
             (response) => {
                 console.log(response.data)

@@ -55,7 +55,7 @@ const AddPet = () => {
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                                 <label htmlFor="" className="form-label">Booking ID</label>
-                                <input type="text" className="form-control" name='bookingID' onChange={inputHandler} value={input.bookingID} />
+                                <input type="text" className="form-control" name='bookingId' onChange={inputHandler} value={input.bookingId} />
 
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
@@ -89,13 +89,13 @@ const AddPet = () => {
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                                 <label htmlFor="" className="form-label">Weight (in Kg)</label>
-                                <input type="number" step="0.01" className="form-control" name='weight' onChange={inputHandler} value={input.weight} />
+                                <input type="number" step="0.01" className="form-control" name='weightKg' onChange={inputHandler} value={input.weightKg} />
 
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                                 <label htmlFor="" className="form-label">Vaccination Status</label>
-                                <input type="text" className="form-control" name='vaccStatus' onChange={inputHandler} value={input.vaccStatus} />
+                                <input type="text" className="form-control" name='vaccinationStatus' onChange={inputHandler} value={input.vaccinationStatus} />
 
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
@@ -107,31 +107,31 @@ const AddPet = () => {
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                                 <label htmlFor="" className="form-label">Phone</label>
-                                <input type="tel" className="form-control" name='phone' onChange={inputHandler} value={input.phone} />
+                                <input type="tel" className="form-control" name='ownerPhone' onChange={inputHandler} value={input.ownerPhone} />
 
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                                 <label htmlFor="" className="form-label">Email</label>
-                                <input type="email" className="form-control" name='email' onChange={inputHandler} value={input.email} />
+                                <input type="email" className="form-control" name='ownerEmail' onChange={inputHandler} value={input.ownerEmail} />
 
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                                 <label htmlFor="" className="form-label">CheckIn Date</label>
-                                <input type="date" className="form-control" name='checkIn' onChange={inputHandler} value={input.checkIn} />
+                                <input type="date" className="form-control" name='checkInDate' onChange={inputHandler} value={input.checkInDate} />
 
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                                 <label htmlFor="" className="form-label">Checkout Date</label>
-                                <input type="date" step="0.01" className="form-control" name='estUcheckOutnits' onChange={inputHandler} value={input.checkOut} />
+                                <input type="date" step="0.01" className="form-control" name='checkOutDate' onChange={inputHandler} value={input.checkOutDate} />
 
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                                 <label htmlFor="" className="form-label">Kennel Number</label>
-                                <input type="text" className="form-control" name='kenNo' onChange={inputHandler} value={input.kenNo} />
+                                <input type="text" className="form-control" name='kennelNumber' onChange={inputHandler} value={input.kennelNumber} />
 
                             </div>
                             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
